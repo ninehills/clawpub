@@ -1,1 +1,508 @@
-<!doctype html><html lang='zh-CN'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>中证A50 技术筛选与交易计划</title><style>:root{--bg:#070b14;--panel:#0f1729;--panel2:#111c33;--line:#24314f;--txt:#e8f0ff;--sub:#91a4c8;--cyan:#37e7ff;--green:#43f59b;--red:#ff6b8a;--amber:#ffd166}*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#17315c55,transparent),var(--bg);color:var(--txt);font:14px/1.5 Inter,system-ui,-apple-system,'PingFang SC',sans-serif}.wrap{max-width:1600px;margin:24px auto;padding:0 16px}.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;box-shadow:0 20px 60px #0008}.head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap}h1{margin:0;font-size:22px}.sub{color:var(--sub);font-size:13px}.kpis{display:grid;grid-template-columns:repeat(4,minmax(140px,1fr));gap:10px;padding:16px 20px}.k{border:1px solid var(--line);background:#0b1324;border-radius:12px;padding:10px 12px}.k b{font-size:22px;color:var(--cyan)}.k span{display:block;color:var(--sub);font-size:12px}.tools{display:flex;gap:8px;padding:0 20px 14px}.btn{cursor:pointer;border:1px solid var(--line);background:#0a1223;color:var(--txt);padding:8px 12px;border-radius:10px}.btn.active{border-color:var(--cyan);color:var(--cyan)}.table-wrap{overflow:auto;border-top:1px solid var(--line)}table{width:100%;border-collapse:collapse;min-width:1550px}th,td{padding:10px;border-bottom:1px solid #1a2744;white-space:nowrap;text-align:right}th{position:sticky;top:0;background:#0d1730;color:#9cb3dd;font-size:11px;text-transform:uppercase}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2),td:nth-child(3),th:nth-child(3){text-align:left}tr:hover{background:#13234577}.mono{font-family:ui-monospace,Menlo,Consolas,monospace}.up{color:var(--green)}.down{color:var(--red)}.badge{padding:3px 8px;border-radius:999px;border:1px solid;font-size:12px}.badge-entry{color:var(--green);border-color:#2da66b;background:#0f2f21}.badge-pullback{color:var(--amber);border-color:#9b7a22;background:#2f260f}.badge-watch{color:#a9b8d8;border-color:#475b87;background:#18243f}.score{display:inline-block;padding:2px 8px;border-radius:999px;background:#13213f;border:1px solid #334b7c}.foot{padding:14px 20px;color:var(--sub);font-size:12px}</style></head><body><div class='wrap'><div class='card'><div class='head'><div><h1>中证A50 · 技术筛选与交易计划面板</h1><div class='sub'>新增股票名称列｜数据源：tvscreener（CHINA）</div></div><div class='sub'>2026-02-24</div></div><div class='kpis'><div class='k'><b>17</b><span>优先建仓</span></div><div class='k'><b>3</b><span>回踩建仓</span></div><div class='k'><b>30</b><span>观察名单</span></div><div class='k'><b>50</b><span>覆盖成分股</span></div></div><div class='tools'><button class='btn active' data-filter='all'>全部</button><button class='btn' data-filter='entry'>优先建仓</button><button class='btn' data-filter='pullback_entry'>回踩建仓</button><button class='btn' data-filter='watch'>观察</button></div><div class='table-wrap'><table><thead><tr><th>代码</th><th>名称</th><th>Symbol</th><th>现价</th><th>涨跌%</th><th>RSI14</th><th>MACD柱</th><th>MA评分</th><th>MA20乖离</th><th>评分</th><th>动作</th><th>入场区间</th><th>加仓区间</th><th>止损位</th><th>目标1</th><th>目标2</th></tr></thead><tbody><tr data-rec='entry'><td class='mono'>600519</td><td>贵州茅台</td><td class='mono'>SSE:600519</td><td>1466.80</td><td class='down'>-1.25%</td><td>53.5</td><td class='up'>+3.217</td><td>0.53</td><td class='up'>+2.15%</td><td><span class='score'>105</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>1444.80-1474.13</td><td class='mono'>1435.94-1464.66</td><td class='mono'>1385.68</td><td class='mono'>1584.14</td><td class='mono'>1686.82</td></tr><tr data-rec='entry'><td class='mono'>601088</td><td>中国神华</td><td class='mono'>SSE:601088</td><td>42.52</td><td class='up'>+2.58%</td><td>55.5</td><td class='up'>+0.104</td><td>0.93</td><td class='up'>+2.68%</td><td><span class='score'>105</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>41.88-42.73</td><td class='mono'>41.41-42.24</td><td class='mono'>39.96</td><td class='mono'>45.92</td><td class='mono'>48.90</td></tr><tr data-rec='entry'><td class='mono'>000333</td><td>美的集团</td><td class='mono'>SZSE:000333</td><td>79.52</td><td class='up'>+0.59%</td><td>54.6</td><td class='up'>+0.180</td><td>0.93</td><td class='up'>+1.48%</td><td><span class='score'>105</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>78.33-79.92</td><td class='mono'>78.36-79.93</td><td class='mono'>75.62</td><td class='mono'>85.88</td><td class='mono'>91.45</td></tr><tr data-rec='entry'><td class='mono'>603259</td><td>药明康德</td><td class='mono'>SSE:603259</td><td>100.17</td><td class='down'>-1.71%</td><td>54.2</td><td class='up'>+0.447</td><td>0.80</td><td class='up'>+2.10%</td><td><span class='score'>105</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>98.67-100.67</td><td class='mono'>98.11-100.07</td><td class='mono'>94.67</td><td class='mono'>108.18</td><td class='mono'>115.20</td></tr><tr data-rec='entry'><td class='mono'>600406</td><td>国电南瑞</td><td class='mono'>SSE:600406</td><td>26.86</td><td class='up'>+2.79%</td><td>67.2</td><td class='up'>+0.038</td><td>0.93</td><td class='up'>+4.52%</td><td><span class='score'>105</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>26.46-26.99</td><td class='mono'>25.70-26.21</td><td class='mono'>24.80</td><td class='mono'>29.01</td><td class='mono'>30.89</td></tr><tr data-rec='entry'><td class='mono'>600031</td><td>三一重工</td><td class='mono'>SSE:600031</td><td>23.95</td><td class='up'>+3.59%</td><td>61.8</td><td class='up'>+0.061</td><td>0.93</td><td class='up'>+4.32%</td><td><span class='score'>105</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>23.59-24.07</td><td class='mono'>22.96-23.42</td><td class='mono'>22.15</td><td class='mono'>25.87</td><td class='mono'>27.54</td></tr><tr data-rec='entry'><td class='mono'>600111</td><td>北方稀土</td><td class='mono'>SSE:600111</td><td>54.94</td><td class='up'>+0.37%</td><td>57.5</td><td class='up'>+0.358</td><td>0.80</td><td class='up'>+5.55%</td><td><span class='score'>100</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>54.12-55.21</td><td class='mono'>52.05-53.09</td><td class='mono'>50.23</td><td class='mono'>59.34</td><td class='mono'>63.18</td></tr><tr data-rec='pullback_entry'><td class='mono'>000988</td><td>华工科技</td><td class='mono'>SZSE:000988</td><td>82.42</td><td class='up'>+10.00%</td><td>58.4</td><td class='up'>+0.326</td><td>0.93</td><td class='up'>+6.83%</td><td><span class='score'>100</span></td><td><span class='badge badge-pullback'>回踩建仓</span></td><td class='mono'>77.15-79.47</td><td class='mono'>74.07-76.38</td><td class='mono'>74.45</td><td class='mono'>89.01</td><td class='mono'>94.78</td></tr><tr data-rec='entry'><td class='mono'>300750</td><td>宁德时代</td><td class='mono'>SZSE:300750</td><td>361.95</td><td class='down'>-0.93%</td><td>50.8</td><td class='up'>+2.298</td><td>0.13</td><td class='up'>+1.89%</td><td><span class='score'>80</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>356.52-363.76</td><td class='mono'>355.22-362.33</td><td class='mono'>342.79</td><td class='mono'>383.67</td><td class='mono'>405.38</td></tr><tr data-rec='entry'><td class='mono'>300476</td><td>胜宏科技</td><td class='mono'>SZSE:300476</td><td>267.65</td><td class='up'>+2.99%</td><td>48.6</td><td class='up'>+1.160</td><td>0.27</td><td class='up'>+1.39%</td><td><span class='score'>80</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>263.64-268.99</td><td class='mono'>263.99-269.27</td><td class='mono'>254.75</td><td class='mono'>283.71</td><td class='mono'>299.77</td></tr><tr data-rec='entry'><td class='mono'>600436</td><td>片仔癀</td><td class='mono'>SSE:600436</td><td>166.33</td><td class='down'>-0.72%</td><td>49.6</td><td class='up'>+0.639</td><td>-0.53</td><td class='up'>+1.15%</td><td><span class='score'>80</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>163.84-167.16</td><td class='mono'>164.44-167.72</td><td class='mono'>158.68</td><td class='mono'>176.31</td><td class='mono'>186.29</td></tr><tr data-rec='entry'><td class='mono'>002625</td><td>光启技术</td><td class='mono'>SZSE:002625</td><td>48.21</td><td class='up'>+2.99%</td><td>49.5</td><td class='up'>+0.074</td><td>0.40</td><td class='up'>+0.81%</td><td><span class='score'>80</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>47.49-48.45</td><td class='mono'>47.82-48.78</td><td class='mono'>46.15</td><td class='mono'>51.10</td><td class='mono'>54.00</td></tr><tr data-rec='entry'><td class='mono'>601899</td><td>紫金矿业</td><td class='mono'>SSE:601899</td><td>39.32</td><td class='up'>+4.08%</td><td>54.6</td><td class='down'>-0.262</td><td>0.80</td><td class='up'>+0.87%</td><td><span class='score'>75</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>38.73-39.52</td><td class='mono'>38.98-39.76</td><td class='mono'>37.62</td><td class='mono'>41.68</td><td class='mono'>44.04</td></tr><tr data-rec='entry'><td class='mono'>600028</td><td>中国石化</td><td class='mono'>SSE:600028</td><td>6.58</td><td class='up'>+3.30%</td><td>60.1</td><td class='down'>-0.000</td><td>0.93</td><td class='up'>+3.17%</td><td><span class='score'>75</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>6.48-6.61</td><td class='mono'>6.38-6.51</td><td class='mono'>6.15</td><td class='mono'>6.97</td><td class='mono'>7.37</td></tr><tr data-rec='entry'><td class='mono'>002371</td><td>北方华创</td><td class='mono'>SZSE:002371</td><td>487.33</td><td class='up'>+0.25%</td><td>52.9</td><td class='down'>-0.651</td><td>0.80</td><td class='up'>+0.28%</td><td><span class='score'>75</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>480.02-489.77</td><td class='mono'>485.96-495.68</td><td class='mono'>468.96</td><td class='mono'>516.57</td><td class='mono'>545.81</td></tr><tr data-rec='entry'><td class='mono'>600309</td><td>万华化学</td><td class='mono'>SSE:600309</td><td>87.25</td><td class='up'>+2.70%</td><td>57.3</td><td class='down'>-0.236</td><td>0.80</td><td class='up'>+1.86%</td><td><span class='score'>75</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>85.94-87.69</td><td class='mono'>85.65-87.37</td><td class='mono'>82.66</td><td class='mono'>92.48</td><td class='mono'>97.72</td></tr><tr data-rec='entry'><td class='mono'>600585</td><td>海螺水泥</td><td class='mono'>SSE:600585</td><td>24.92</td><td class='up'>+1.05%</td><td>58.2</td><td class='down'>-0.012</td><td>0.67</td><td class='up'>+1.90%</td><td><span class='score'>75</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>24.55-25.04</td><td class='mono'>24.45-24.94</td><td class='mono'>23.60</td><td class='mono'>26.42</td><td class='mono'>27.91</td></tr><tr data-rec='entry'><td class='mono'>000938</td><td>紫光股份</td><td class='mono'>SZSE:000938</td><td>25.46</td><td class='down'>-0.16%</td><td>50.2</td><td class='up'>+0.025</td><td>-0.40</td><td class='down'>-0.08%</td><td><span class='score'>75</span></td><td><span class='badge badge-entry'>优先建仓</span></td><td class='mono'>25.08-25.59</td><td class='mono'>25.48-25.99</td><td class='mono'>24.59</td><td class='mono'>26.99</td><td class='mono'>28.52</td></tr><tr data-rec='pullback_entry'><td class='mono'>000792</td><td>盐湖股份</td><td class='mono'>SZSE:000792</td><td>35.66</td><td class='up'>+5.94%</td><td>64.5</td><td class='down'>-0.058</td><td>0.93</td><td class='up'>+5.15%</td><td><span class='score'>70</span></td><td><span class='badge badge-pullback'>回踩建仓</span></td><td class='mono'>33.91-34.93</td><td class='mono'>32.56-33.57</td><td class='mono'>32.73</td><td class='mono'>37.80</td><td class='mono'>39.94</td></tr><tr data-rec='pullback_entry'><td class='mono'>600893</td><td>航发动力</td><td class='mono'>SSE:600893</td><td>58.35</td><td class='up'>+2.06%</td><td>73.3</td><td class='up'>+0.721</td><td>0.93</td><td class='up'>+18.25%</td><td><span class='score'>70</span></td><td><span class='badge badge-pullback'>回踩建仓</span></td><td class='mono'>49.35-50.83</td><td class='mono'>47.37-48.85</td><td class='mono'>47.62</td><td class='mono'>61.85</td><td class='mono'>65.35</td></tr><tr data-rec='watch'><td class='mono'>600036</td><td>招商银行</td><td class='mono'>SSE:600036</td><td>38.94</td><td class='up'>+0.59%</td><td>44.4</td><td class='up'>+0.149</td><td>-0.53</td><td class='up'>+0.70%</td><td><span class='score'>60</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>37.90-38.67</td><td class='mono'>36.74-37.51</td><td class='mono'>37.32</td><td class='mono'>41.28</td><td class='mono'>43.61</td></tr><tr data-rec='watch'><td class='mono'>601766</td><td>中国中车</td><td class='mono'>SSE:601766</td><td>6.47</td><td class='up'>+2.54%</td><td>45.3</td><td class='up'>+0.021</td><td>-0.27</td><td class='up'>+0.10%</td><td><span class='score'>60</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>6.33-6.46</td><td class='mono'>6.14-6.27</td><td class='mono'>6.24</td><td class='mono'>6.86</td><td class='mono'>7.25</td></tr><tr data-rec='watch'><td class='mono'>600660</td><td>福耀玻璃</td><td class='mono'>SSE:600660</td><td>61.49</td><td class='up'>+3.55%</td><td>50.7</td><td class='down'>-0.016</td><td>0.00</td><td class='up'>+0.67%</td><td><span class='score'>50</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>59.86-61.08</td><td class='mono'>58.02-59.25</td><td class='mono'>58.94</td><td class='mono'>65.18</td><td class='mono'>68.87</td></tr><tr data-rec='watch'><td class='mono'>601600</td><td>中国铝业</td><td class='mono'>SSE:601600</td><td>12.96</td><td class='up'>+2.13%</td><td>48.8</td><td class='down'>-0.141</td><td>-0.13</td><td class='down'>-3.11%</td><td><span class='score'>45</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>13.11-13.38</td><td class='mono'>12.71-12.97</td><td class='mono'>12.91</td><td class='mono'>13.74</td><td class='mono'>14.52</td></tr><tr data-rec='watch'><td class='mono'>002230</td><td>科大讯飞</td><td class='mono'>SZSE:002230</td><td>57.16</td><td class='up'>+0.07%</td><td>51.4</td><td class='down'>-0.322</td><td>0.40</td><td class='down'>-0.81%</td><td><span class='score'>45</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>56.48-57.63</td><td class='mono'>54.75-55.90</td><td class='mono'>55.61</td><td class='mono'>60.59</td><td class='mono'>64.02</td></tr><tr data-rec='watch'><td class='mono'>600048</td><td>保利发展</td><td class='mono'>SSE:600048</td><td>6.79</td><td class='up'>+0.74%</td><td>51.2</td><td class='down'>-0.023</td><td>-0.27</td><td class='down'>-0.33%</td><td><span class='score'>45</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>6.68-6.81</td><td class='mono'>6.47-6.61</td><td class='mono'>6.57</td><td class='mono'>7.20</td><td class='mono'>7.60</td></tr><tr data-rec='watch'><td class='mono'>600941</td><td>中国移动</td><td class='mono'>SSE:600941</td><td>94.67</td><td class='up'>+2.22%</td><td>44.8</td><td class='up'>+0.177</td><td>-0.53</td><td class='down'>-0.15%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>92.91-94.81</td><td class='mono'>90.07-91.96</td><td class='mono'>91.49</td><td class='mono'>100.35</td><td class='mono'>106.03</td></tr><tr data-rec='watch'><td class='mono'>002594</td><td>比亚迪</td><td class='mono'>SZSE:002594</td><td>90.87</td><td class='up'>+0.66%</td><td>44.5</td><td class='up'>+0.233</td><td>-0.67</td><td class='down'>-0.50%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>89.50-91.33</td><td class='mono'>86.76-88.59</td><td class='mono'>88.13</td><td class='mono'>96.32</td><td class='mono'>101.77</td></tr><tr data-rec='watch'><td class='mono'>600900</td><td>长江电力</td><td class='mono'>SSE:600900</td><td>26.05</td><td class='up'>+0.19%</td><td>39.8</td><td class='up'>+0.031</td><td>-0.80</td><td class='down'>-0.77%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>25.73-26.25</td><td class='mono'>24.94-25.46</td><td class='mono'>25.33</td><td class='mono'>27.61</td><td class='mono'>29.18</td></tr><tr data-rec='watch'><td class='mono'>600276</td><td>恒瑞医药</td><td class='mono'>SSE:600276</td><td>58.01</td><td class='down'>-0.38%</td><td>43.4</td><td class='up'>+0.183</td><td>-0.93</td><td class='down'>-0.32%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>57.03-58.20</td><td class='mono'>55.29-56.45</td><td class='mono'>56.16</td><td class='mono'>61.49</td><td class='mono'>64.97</td></tr><tr data-rec='watch'><td class='mono'>601816</td><td>京沪高铁</td><td class='mono'>SSE:601816</td><td>4.91</td><td class='up'>+0.00%</td><td>42.8</td><td class='up'>+0.009</td><td>-0.93</td><td class='down'>-0.44%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>4.83-4.93</td><td class='mono'>4.68-4.78</td><td class='mono'>4.76</td><td class='mono'>5.20</td><td class='mono'>5.50</td></tr><tr data-rec='watch'><td class='mono'>601668</td><td>中国建筑</td><td class='mono'>SSE:601668</td><td>5.05</td><td class='up'>+1.00%</td><td>46.9</td><td class='up'>+0.004</td><td>-0.80</td><td class='down'>-0.15%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>4.96-5.06</td><td class='mono'>4.80-4.91</td><td class='mono'>4.88</td><td class='mono'>5.35</td><td class='mono'>5.66</td></tr><tr data-rec='watch'><td class='mono'>600887</td><td>伊利股份</td><td class='mono'>SSE:600887</td><td>26.37</td><td class='down'>-0.42%</td><td>37.6</td><td class='up'>+0.033</td><td>-0.93</td><td class='down'>-1.33%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>26.19-26.73</td><td class='mono'>25.39-25.92</td><td class='mono'>25.79</td><td class='mono'>27.95</td><td class='mono'>29.53</td></tr><tr data-rec='watch'><td class='mono'>605499</td><td>东鹏饮料</td><td class='mono'>SSE:605499</td><td>260.90</td><td class='down'>-1.47%</td><td>46.6</td><td class='up'>+0.533</td><td>-0.80</td><td class='down'>-0.02%</td><td><span class='score'>40</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>255.74-260.96</td><td class='mono'>247.91-253.13</td><td class='mono'>251.83</td><td class='mono'>276.55</td><td class='mono'>292.21</td></tr><tr data-rec='watch'><td class='mono'>601318</td><td>中国平安</td><td class='mono'>SSE:601318</td><td>64.50</td><td class='down'>-1.21%</td><td>41.3</td><td class='down'>-0.195</td><td>-0.40</td><td class='down'>-2.65%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>64.93-66.25</td><td class='mono'>62.94-64.27</td><td class='mono'>63.93</td><td class='mono'>68.37</td><td class='mono'>72.24</td></tr><tr data-rec='watch'><td class='mono'>688981</td><td>中芯国际</td><td class='mono'>SSE:688981</td><td>115.82</td><td class='down'>-0.95%</td><td>43.6</td><td class='down'>-0.305</td><td>-0.53</td><td class='down'>-3.04%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>117.06-119.45</td><td class='mono'>113.47-115.86</td><td class='mono'>115.27</td><td class='mono'>122.77</td><td class='mono'>129.72</td></tr><tr data-rec='watch'><td class='mono'>300308</td><td>中际旭创</td><td class='mono'>SZSE:300308</td><td>554.00</td><td class='up'>+4.33%</td><td>45.7</td><td class='down'>-6.162</td><td>-0.13</td><td class='down'>-4.30%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>567.32-578.90</td><td class='mono'>549.95-561.53</td><td class='mono'>558.63</td><td class='mono'>587.24</td><td class='mono'>620.48</td></tr><tr data-rec='watch'><td class='mono'>600030</td><td>中信证券</td><td class='mono'>SSE:600030</td><td>27.63</td><td class='up'>+0.04%</td><td>40.2</td><td class='down'>-0.032</td><td>-0.93</td><td class='down'>-1.35%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>27.45-28.01</td><td class='mono'>26.61-27.17</td><td class='mono'>27.03</td><td class='mono'>29.29</td><td class='mono'>30.95</td></tr><tr data-rec='watch'><td class='mono'>002475</td><td>立讯精密</td><td class='mono'>SZSE:002475</td><td>50.63</td><td class='down'>-0.33%</td><td>33.6</td><td class='down'>-0.064</td><td>-0.53</td><td class='down'>-4.20%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>51.79-52.85</td><td class='mono'>50.21-51.26</td><td class='mono'>51.00</td><td class='mono'>53.67</td><td class='mono'>56.71</td></tr><tr data-rec='watch'><td class='mono'>002714</td><td>牧原股份</td><td class='mono'>SZSE:002714</td><td>44.56</td><td class='down'>-1.74%</td><td>36.1</td><td class='down'>-0.022</td><td>-0.93</td><td class='down'>-2.95%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>45.00-45.91</td><td class='mono'>43.62-44.54</td><td class='mono'>44.31</td><td class='mono'>47.23</td><td class='mono'>49.91</td></tr><tr data-rec='watch'><td class='mono'>300760</td><td>迈瑞医疗</td><td class='mono'>SZSE:300760</td><td>186.20</td><td class='up'>+0.23%</td><td>37.9</td><td class='down'>-0.241</td><td>-0.80</td><td class='down'>-2.45%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>187.06-190.87</td><td class='mono'>181.33-185.15</td><td class='mono'>184.19</td><td class='mono'>197.37</td><td class='mono'>208.54</td></tr><tr data-rec='watch'><td class='mono'>300124</td><td>汇川技术</td><td class='mono'>SZSE:300124</td><td>74.35</td><td class='down'>-1.03%</td><td>43.3</td><td class='down'>-0.265</td><td>-0.67</td><td class='down'>-2.92%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>75.05-76.58</td><td class='mono'>72.75-74.29</td><td class='mono'>73.90</td><td class='mono'>78.81</td><td class='mono'>83.27</td></tr><tr data-rec='watch'><td class='mono'>000725</td><td>京东方A</td><td class='mono'>SZSE:000725</td><td>4.28</td><td class='up'>+2.39%</td><td>46.5</td><td class='down'>-0.029</td><td>-0.27</td><td class='down'>-2.18%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>4.29-4.38</td><td class='mono'>4.16-4.24</td><td class='mono'>4.22</td><td class='mono'>4.54</td><td class='mono'>4.79</td></tr><tr data-rec='watch'><td class='mono'>600019</td><td>宝钢股份</td><td class='mono'>SSE:600019</td><td>7.01</td><td class='up'>+1.30%</td><td>44.4</td><td class='down'>-0.016</td><td>-0.93</td><td class='down'>-2.12%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>7.02-7.16</td><td class='mono'>6.80-6.95</td><td class='mono'>6.91</td><td class='mono'>7.43</td><td class='mono'>7.85</td></tr><tr data-rec='watch'><td class='mono'>601012</td><td>隆基绿能</td><td class='mono'>SSE:601012</td><td>18.28</td><td class='up'>+0.83%</td><td>48.0</td><td class='down'>-0.029</td><td>-0.53</td><td class='down'>-0.89%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>18.08-18.44</td><td class='mono'>17.52-17.89</td><td class='mono'>17.80</td><td class='mono'>19.38</td><td class='mono'>20.47</td></tr><tr data-rec='watch'><td class='mono'>000617</td><td>中油资本</td><td class='mono'>SZSE:000617</td><td>8.93</td><td class='up'>+2.17%</td><td>44.6</td><td class='down'>-0.005</td><td>-0.53</td><td class='down'>-0.84%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>8.83-9.01</td><td class='mono'>8.56-8.74</td><td class='mono'>8.69</td><td class='mono'>9.47</td><td class='mono'>10.00</td></tr><tr data-rec='watch'><td class='mono'>002027</td><td>分众传媒</td><td class='mono'>SZSE:002027</td><td>7.28</td><td class='up'>+0.00%</td><td>45.7</td><td class='down'>-0.005</td><td>-0.93</td><td class='down'>-0.93%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>7.20-7.35</td><td class='mono'>6.98-7.13</td><td class='mono'>7.09</td><td class='mono'>7.72</td><td class='mono'>8.15</td></tr><tr data-rec='watch'><td class='mono'>300015</td><td>爱尔眼科</td><td class='mono'>SZSE:300015</td><td>10.64</td><td class='up'>+3.00%</td><td>41.6</td><td class='down'>-0.064</td><td>-0.80</td><td class='down'>-3.46%</td><td><span class='score'>10</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>10.80-11.02</td><td class='mono'>10.47-10.69</td><td class='mono'>10.64</td><td class='mono'>11.28</td><td class='mono'>11.92</td></tr><tr data-rec='watch'><td class='mono'>600415</td><td>小商品城</td><td class='mono'>SSE:600415</td><td>15.02</td><td class='down'>-0.46%</td><td>33.0</td><td class='down'>-0.102</td><td>-0.80</td><td class='down'>-5.85%</td><td><span class='score'>5</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>15.63-15.95</td><td class='mono'>15.16-15.47</td><td class='mono'>15.40</td><td class='mono'>15.92</td><td class='mono'>16.82</td></tr><tr data-rec='watch'><td class='mono'>601888</td><td>中国中免</td><td class='mono'>SSE:601888</td><td>85.18</td><td class='down'>-10.00%</td><td>39.4</td><td class='down'>-0.532</td><td>-0.40</td><td class='down'>-8.07%</td><td><span class='score'>0</span></td><td><span class='badge badge-watch'>观察</span></td><td class='mono'>90.80-92.66</td><td class='mono'>88.02-89.88</td><td class='mono'>89.41</td><td class='mono'>90.29</td><td class='mono'>95.40</td></tr></tbody></table></div><div class='foot'>仅技术面参考，不构成投资建议。</div></div></div><script>const btns=[...document.querySelectorAll('.btn')],rows=[...document.querySelectorAll('tbody tr')];btns.forEach(b=>b.onclick=()=>{btns.forEach(x=>x.classList.remove('active'));b.classList.add('active');const f=b.dataset.filter;rows.forEach(r=>r.style.display=(f==='all'||r.dataset.rec===f)?'':'none');})</script></body></html>
+<!doctype html><html lang='zh-CN'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>中证A50 技术筛选与交易计划</title>
+<style>:root{--bg:#070b14;--panel:#0f1729;--panel2:#111c33;--line:#24314f;--txt:#e8f0ff;--sub:#91a4c8;--cyan:#37e7ff;--green:#43f59b;--red:#ff6b8a;--amber:#ffd166}*{box-sizing:border-box}body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#17315c55,transparent),var(--bg);color:var(--txt);font:14px/1.5 Inter,system-ui,-apple-system,'PingFang SC',sans-serif}.wrap{max-width:1800px;margin:24px auto;padding:0 16px}.card{background:linear-gradient(180deg,var(--panel),var(--panel2));border:1px solid var(--line);border-radius:16px;box-shadow:0 20px 60px #0008}.head{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:end;flex-wrap:wrap}h1{margin:0;font-size:22px}.sub{color:var(--sub);font-size:13px}.kpis{display:grid;grid-template-columns:repeat(4,minmax(140px,1fr));gap:10px;padding:16px 20px}.k{border:1px solid var(--line);background:#0b1324;border-radius:12px;padding:10px 12px}.k b{font-size:22px;color:var(--cyan)}.k span{display:block;color:var(--sub);font-size:12px}.tools{display:flex;gap:8px;padding:0 20px 14px}.btn{cursor:pointer;border:1px solid var(--line);background:#0a1223;color:var(--txt);padding:8px 12px;border-radius:10px}.btn.active{border-color:var(--cyan);color:var(--cyan)}.table-wrap{overflow:auto;border-top:1px solid var(--line)}table{width:100%;border-collapse:collapse;min-width:1800px}th,td{padding:10px;border-bottom:1px solid #1a2744;white-space:nowrap;text-align:right;vertical-align:top}th{position:sticky;top:0;background:#0d1730;color:#9cb3dd;font-size:11px;text-transform:uppercase}td:first-child,th:first-child,td:nth-child(2),th:nth-child(2),td:nth-child(3),th:nth-child(3),td:last-child,th:last-child{text-align:left}tr:hover{background:#13234577}.mono{font-family:ui-monospace,Menlo,Consolas,monospace}.up{color:var(--green)}.down{color:var(--red)}.badge{padding:3px 8px;border-radius:999px;border:1px solid;font-size:12px}.badge-entry{color:var(--green);border-color:#2da66b;background:#0f2f21}.badge-pullback{color:var(--amber);border-color:#9b7a22;background:#2f260f}.badge-watch{color:#a9b8d8;border-color:#475b87;background:#18243f}.score{display:inline-block;padding:2px 8px;border-radius:999px;background:#13213f;border:1px solid #334b7c}.reason{white-space:normal;min-width:320px;color:#c6d7f7}.foot{padding:14px 20px;color:var(--sub);font-size:12px}</style></head>
+<body><div class='wrap'><div class='card'><div class='head'><div><h1>中证A50 · 技术筛选与交易计划面板</h1><div class='sub'>新增“推荐理由”列（逐股可解释）｜数据源：tvscreener（CHINA）</div></div><div class='sub'>2026-02-24</div></div>
+<div class='kpis'><div class='k'><b>17</b><span>优先建仓</span></div><div class='k'><b>3</b><span>回踩建仓</span></div><div class='k'><b>30</b><span>观察名单</span></div><div class='k'><b>50</b><span>覆盖成分股</span></div></div>
+<div class='tools'><button class='btn active' data-filter='all'>全部</button><button class='btn' data-filter='entry'>优先建仓</button><button class='btn' data-filter='pullback_entry'>回踩建仓</button><button class='btn' data-filter='watch'>观察</button></div>
+<div class='table-wrap'><table><thead><tr><th>代码</th><th>名称</th><th>Symbol</th><th>现价</th><th>涨跌%</th><th>RSI14</th><th>MACD柱</th><th>MA评分</th><th>MA20乖离</th><th>评分</th><th>动作</th><th>入场区间</th><th>加仓区间</th><th>止损位</th><th>目标1</th><th>目标2</th><th>推荐理由</th></tr></thead><tbody>
+    <tr data-rec="entry"> 
+      <td class="mono">600519</td><td>贵州茅台</td><td class="mono">SSE:600519</td>
+      <td>1466.80</td><td class="down">-1.25%</td>
+      <td>53.5</td><td class="up">+3.217</td>
+      <td>0.53</td><td class="up">+2.15%</td>
+      <td><span class="score">105</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">1444.80-1474.13</td><td class="mono">1435.94-1464.66</td><td class="mono">1385.68</td><td class="mono">1584.14</td><td class="mono">1686.82</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+2.1%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">601088</td><td>中国神华</td><td class="mono">SSE:601088</td>
+      <td>42.52</td><td class="up">+2.58%</td>
+      <td>55.5</td><td class="up">+0.104</td>
+      <td>0.93</td><td class="up">+2.68%</td>
+      <td><span class="score">105</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">41.88-42.73</td><td class="mono">41.41-42.24</td><td class="mono">39.96</td><td class="mono">45.92</td><td class="mono">48.90</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+2.7%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">000333</td><td>美的集团</td><td class="mono">SZSE:000333</td>
+      <td>79.52</td><td class="up">+0.59%</td>
+      <td>54.6</td><td class="up">+0.180</td>
+      <td>0.93</td><td class="up">+1.48%</td>
+      <td><span class="score">105</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">78.33-79.92</td><td class="mono">78.36-79.93</td><td class="mono">75.62</td><td class="mono">85.88</td><td class="mono">91.45</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+1.5%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">603259</td><td>药明康德</td><td class="mono">SSE:603259</td>
+      <td>100.17</td><td class="down">-1.71%</td>
+      <td>54.2</td><td class="up">+0.447</td>
+      <td>0.80</td><td class="up">+2.10%</td>
+      <td><span class="score">105</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">98.67-100.67</td><td class="mono">98.11-100.07</td><td class="mono">94.67</td><td class="mono">108.18</td><td class="mono">115.20</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+2.1%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600406</td><td>国电南瑞</td><td class="mono">SSE:600406</td>
+      <td>26.86</td><td class="up">+2.79%</td>
+      <td>67.2</td><td class="up">+0.038</td>
+      <td>0.93</td><td class="up">+4.52%</td>
+      <td><span class="score">105</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">26.46-26.99</td><td class="mono">25.70-26.21</td><td class="mono">24.80</td><td class="mono">29.01</td><td class="mono">30.89</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+4.5%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600031</td><td>三一重工</td><td class="mono">SSE:600031</td>
+      <td>23.95</td><td class="up">+3.59%</td>
+      <td>61.8</td><td class="up">+0.061</td>
+      <td>0.93</td><td class="up">+4.32%</td>
+      <td><span class="score">105</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">23.59-24.07</td><td class="mono">22.96-23.42</td><td class="mono">22.15</td><td class="mono">25.87</td><td class="mono">27.54</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+4.3%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600111</td><td>北方稀土</td><td class="mono">SSE:600111</td>
+      <td>54.94</td><td class="up">+0.37%</td>
+      <td>57.5</td><td class="up">+0.358</td>
+      <td>0.80</td><td class="up">+5.55%</td>
+      <td><span class="score">100</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">54.12-55.21</td><td class="mono">52.05-53.09</td><td class="mono">50.23</td><td class="mono">59.34</td><td class="mono">63.18</td>
+      <td class="reason">均线多头，RSI健康，动量走强，且乖离+5.5%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="pullback_entry"> 
+      <td class="mono">000988</td><td>华工科技</td><td class="mono">SZSE:000988</td>
+      <td>82.42</td><td class="up">+10.00%</td>
+      <td>58.4</td><td class="up">+0.326</td>
+      <td>0.93</td><td class="up">+6.83%</td>
+      <td><span class="score">100</span></td><td><span class="badge badge-pullback">回踩建仓</span></td>
+      <td class="mono">77.15-79.47</td><td class="mono">74.07-76.38</td><td class="mono">74.45</td><td class="mono">89.01</td><td class="mono">94.78</td>
+      <td class="reason">均线多头但短线偏热/涨速快，乖离+6.8%偏高，等回踩再介入更优</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">300750</td><td>宁德时代</td><td class="mono">SZSE:300750</td>
+      <td>361.95</td><td class="down">-0.93%</td>
+      <td>50.8</td><td class="up">+2.298</td>
+      <td>0.13</td><td class="up">+1.89%</td>
+      <td><span class="score">80</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">356.52-363.76</td><td class="mono">355.22-362.33</td><td class="mono">342.79</td><td class="mono">383.67</td><td class="mono">405.38</td>
+      <td class="reason">均线修复中，RSI健康，动量走强，且乖离+1.9%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">300476</td><td>胜宏科技</td><td class="mono">SZSE:300476</td>
+      <td>267.65</td><td class="up">+2.99%</td>
+      <td>48.6</td><td class="up">+1.160</td>
+      <td>0.27</td><td class="up">+1.39%</td>
+      <td><span class="score">80</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">263.64-268.99</td><td class="mono">263.99-269.27</td><td class="mono">254.75</td><td class="mono">283.71</td><td class="mono">299.77</td>
+      <td class="reason">均线修复中，RSI健康，动量走强，且乖离+1.4%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600436</td><td>片仔癀</td><td class="mono">SSE:600436</td>
+      <td>166.33</td><td class="down">-0.72%</td>
+      <td>49.6</td><td class="up">+0.639</td>
+      <td>-0.53</td><td class="up">+1.15%</td>
+      <td><span class="score">80</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">163.84-167.16</td><td class="mono">164.44-167.72</td><td class="mono">158.68</td><td class="mono">176.31</td><td class="mono">186.29</td>
+      <td class="reason">均线偏弱，RSI健康，动量走强，且乖离+1.2%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">002625</td><td>光启技术</td><td class="mono">SZSE:002625</td>
+      <td>48.21</td><td class="up">+2.99%</td>
+      <td>49.5</td><td class="up">+0.074</td>
+      <td>0.40</td><td class="up">+0.81%</td>
+      <td><span class="score">80</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">47.49-48.45</td><td class="mono">47.82-48.78</td><td class="mono">46.15</td><td class="mono">51.10</td><td class="mono">54.00</td>
+      <td class="reason">均线修复中，RSI健康，动量走强，且乖离+0.8%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">601899</td><td>紫金矿业</td><td class="mono">SSE:601899</td>
+      <td>39.32</td><td class="up">+4.08%</td>
+      <td>54.6</td><td class="down">-0.262</td>
+      <td>0.80</td><td class="up">+0.87%</td>
+      <td><span class="score">75</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">38.73-39.52</td><td class="mono">38.98-39.76</td><td class="mono">37.62</td><td class="mono">41.68</td><td class="mono">44.04</td>
+      <td class="reason">均线多头，RSI健康，动量偏弱，且乖离+0.9%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600028</td><td>中国石化</td><td class="mono">SSE:600028</td>
+      <td>6.58</td><td class="up">+3.30%</td>
+      <td>60.1</td><td class="down">-0.000</td>
+      <td>0.93</td><td class="up">+3.17%</td>
+      <td><span class="score">75</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">6.48-6.61</td><td class="mono">6.38-6.51</td><td class="mono">6.15</td><td class="mono">6.97</td><td class="mono">7.37</td>
+      <td class="reason">均线多头，RSI健康，动量偏弱，且乖离+3.2%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">002371</td><td>北方华创</td><td class="mono">SZSE:002371</td>
+      <td>487.33</td><td class="up">+0.25%</td>
+      <td>52.9</td><td class="down">-0.651</td>
+      <td>0.80</td><td class="up">+0.28%</td>
+      <td><span class="score">75</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">480.02-489.77</td><td class="mono">485.96-495.68</td><td class="mono">468.96</td><td class="mono">516.57</td><td class="mono">545.81</td>
+      <td class="reason">均线多头，RSI健康，动量偏弱，且乖离+0.3%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600309</td><td>万华化学</td><td class="mono">SSE:600309</td>
+      <td>87.25</td><td class="up">+2.70%</td>
+      <td>57.3</td><td class="down">-0.236</td>
+      <td>0.80</td><td class="up">+1.86%</td>
+      <td><span class="score">75</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">85.94-87.69</td><td class="mono">85.65-87.37</td><td class="mono">82.66</td><td class="mono">92.48</td><td class="mono">97.72</td>
+      <td class="reason">均线多头，RSI健康，动量偏弱，且乖离+1.9%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">600585</td><td>海螺水泥</td><td class="mono">SSE:600585</td>
+      <td>24.92</td><td class="up">+1.05%</td>
+      <td>58.2</td><td class="down">-0.012</td>
+      <td>0.67</td><td class="up">+1.90%</td>
+      <td><span class="score">75</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">24.55-25.04</td><td class="mono">24.45-24.94</td><td class="mono">23.60</td><td class="mono">26.42</td><td class="mono">27.91</td>
+      <td class="reason">均线多头，RSI健康，动量偏弱，且乖离+1.9%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="entry"> 
+      <td class="mono">000938</td><td>紫光股份</td><td class="mono">SZSE:000938</td>
+      <td>25.46</td><td class="down">-0.16%</td>
+      <td>50.2</td><td class="up">+0.025</td>
+      <td>-0.40</td><td class="down">-0.08%</td>
+      <td><span class="score">75</span></td><td><span class="badge badge-entry">优先建仓</span></td>
+      <td class="mono">25.08-25.59</td><td class="mono">25.48-25.99</td><td class="mono">24.59</td><td class="mono">26.99</td><td class="mono">28.52</td>
+      <td class="reason">均线偏弱，RSI健康，动量走强，且乖离-0.1%适中，适合分批建仓</td>
+    </tr>
+    
+    <tr data-rec="pullback_entry"> 
+      <td class="mono">000792</td><td>盐湖股份</td><td class="mono">SZSE:000792</td>
+      <td>35.66</td><td class="up">+5.94%</td>
+      <td>64.5</td><td class="down">-0.058</td>
+      <td>0.93</td><td class="up">+5.15%</td>
+      <td><span class="score">70</span></td><td><span class="badge badge-pullback">回踩建仓</span></td>
+      <td class="mono">33.91-34.93</td><td class="mono">32.56-33.57</td><td class="mono">32.73</td><td class="mono">37.80</td><td class="mono">39.94</td>
+      <td class="reason">均线多头但短线偏热/涨速快，乖离+5.1%偏高，等回踩再介入更优</td>
+    </tr>
+    
+    <tr data-rec="pullback_entry"> 
+      <td class="mono">600893</td><td>航发动力</td><td class="mono">SSE:600893</td>
+      <td>58.35</td><td class="up">+2.06%</td>
+      <td>73.3</td><td class="up">+0.721</td>
+      <td>0.93</td><td class="up">+18.25%</td>
+      <td><span class="score">70</span></td><td><span class="badge badge-pullback">回踩建仓</span></td>
+      <td class="mono">49.35-50.83</td><td class="mono">47.37-48.85</td><td class="mono">47.62</td><td class="mono">61.85</td><td class="mono">65.35</td>
+      <td class="reason">均线多头但短线偏热/涨速快，乖离+18.2%偏高，等回踩再介入更优</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600036</td><td>招商银行</td><td class="mono">SSE:600036</td>
+      <td>38.94</td><td class="up">+0.59%</td>
+      <td>44.4</td><td class="up">+0.149</td>
+      <td>-0.53</td><td class="up">+0.70%</td>
+      <td><span class="score">60</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">37.90-38.67</td><td class="mono">36.74-37.51</td><td class="mono">37.32</td><td class="mono">41.28</td><td class="mono">43.61</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601766</td><td>中国中车</td><td class="mono">SSE:601766</td>
+      <td>6.47</td><td class="up">+2.54%</td>
+      <td>45.3</td><td class="up">+0.021</td>
+      <td>-0.27</td><td class="up">+0.10%</td>
+      <td><span class="score">60</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">6.33-6.46</td><td class="mono">6.14-6.27</td><td class="mono">6.24</td><td class="mono">6.86</td><td class="mono">7.25</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600660</td><td>福耀玻璃</td><td class="mono">SSE:600660</td>
+      <td>61.49</td><td class="up">+3.55%</td>
+      <td>50.7</td><td class="down">-0.016</td>
+      <td>0.00</td><td class="up">+0.67%</td>
+      <td><span class="score">50</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">59.86-61.08</td><td class="mono">58.02-59.25</td><td class="mono">58.94</td><td class="mono">65.18</td><td class="mono">68.87</td>
+      <td class="reason">均线修复中，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601600</td><td>中国铝业</td><td class="mono">SSE:601600</td>
+      <td>12.96</td><td class="up">+2.13%</td>
+      <td>48.8</td><td class="down">-0.141</td>
+      <td>-0.13</td><td class="down">-3.11%</td>
+      <td><span class="score">45</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">13.11-13.38</td><td class="mono">12.71-12.97</td><td class="mono">12.91</td><td class="mono">13.74</td><td class="mono">14.52</td>
+      <td class="reason">均线修复中，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">002230</td><td>科大讯飞</td><td class="mono">SZSE:002230</td>
+      <td>57.16</td><td class="up">+0.07%</td>
+      <td>51.4</td><td class="down">-0.322</td>
+      <td>0.40</td><td class="down">-0.81%</td>
+      <td><span class="score">45</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">56.48-57.63</td><td class="mono">54.75-55.90</td><td class="mono">55.61</td><td class="mono">60.59</td><td class="mono">64.02</td>
+      <td class="reason">均线修复中，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600048</td><td>保利发展</td><td class="mono">SSE:600048</td>
+      <td>6.79</td><td class="up">+0.74%</td>
+      <td>51.2</td><td class="down">-0.023</td>
+      <td>-0.27</td><td class="down">-0.33%</td>
+      <td><span class="score">45</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">6.68-6.81</td><td class="mono">6.47-6.61</td><td class="mono">6.57</td><td class="mono">7.20</td><td class="mono">7.60</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600941</td><td>中国移动</td><td class="mono">SSE:600941</td>
+      <td>94.67</td><td class="up">+2.22%</td>
+      <td>44.8</td><td class="up">+0.177</td>
+      <td>-0.53</td><td class="down">-0.15%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">92.91-94.81</td><td class="mono">90.07-91.96</td><td class="mono">91.49</td><td class="mono">100.35</td><td class="mono">106.03</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">002594</td><td>比亚迪</td><td class="mono">SZSE:002594</td>
+      <td>90.87</td><td class="up">+0.66%</td>
+      <td>44.5</td><td class="up">+0.233</td>
+      <td>-0.67</td><td class="down">-0.50%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">89.50-91.33</td><td class="mono">86.76-88.59</td><td class="mono">88.13</td><td class="mono">96.32</td><td class="mono">101.77</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600900</td><td>长江电力</td><td class="mono">SSE:600900</td>
+      <td>26.05</td><td class="up">+0.19%</td>
+      <td>39.8</td><td class="up">+0.031</td>
+      <td>-0.80</td><td class="down">-0.77%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">25.73-26.25</td><td class="mono">24.94-25.46</td><td class="mono">25.33</td><td class="mono">27.61</td><td class="mono">29.18</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600276</td><td>恒瑞医药</td><td class="mono">SSE:600276</td>
+      <td>58.01</td><td class="down">-0.38%</td>
+      <td>43.4</td><td class="up">+0.183</td>
+      <td>-0.93</td><td class="down">-0.32%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">57.03-58.20</td><td class="mono">55.29-56.45</td><td class="mono">56.16</td><td class="mono">61.49</td><td class="mono">64.97</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601816</td><td>京沪高铁</td><td class="mono">SSE:601816</td>
+      <td>4.91</td><td class="up">+0.00%</td>
+      <td>42.8</td><td class="up">+0.009</td>
+      <td>-0.93</td><td class="down">-0.44%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">4.83-4.93</td><td class="mono">4.68-4.78</td><td class="mono">4.76</td><td class="mono">5.20</td><td class="mono">5.50</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601668</td><td>中国建筑</td><td class="mono">SSE:601668</td>
+      <td>5.05</td><td class="up">+1.00%</td>
+      <td>46.9</td><td class="up">+0.004</td>
+      <td>-0.80</td><td class="down">-0.15%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">4.96-5.06</td><td class="mono">4.80-4.91</td><td class="mono">4.88</td><td class="mono">5.35</td><td class="mono">5.66</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600887</td><td>伊利股份</td><td class="mono">SSE:600887</td>
+      <td>26.37</td><td class="down">-0.42%</td>
+      <td>37.6</td><td class="up">+0.033</td>
+      <td>-0.93</td><td class="down">-1.33%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">26.19-26.73</td><td class="mono">25.39-25.92</td><td class="mono">25.79</td><td class="mono">27.95</td><td class="mono">29.53</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">605499</td><td>东鹏饮料</td><td class="mono">SSE:605499</td>
+      <td>260.90</td><td class="down">-1.47%</td>
+      <td>46.6</td><td class="up">+0.533</td>
+      <td>-0.80</td><td class="down">-0.02%</td>
+      <td><span class="score">40</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">255.74-260.96</td><td class="mono">247.91-253.13</td><td class="mono">251.83</td><td class="mono">276.55</td><td class="mono">292.21</td>
+      <td class="reason">均线偏弱，动量走强，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601318</td><td>中国平安</td><td class="mono">SSE:601318</td>
+      <td>64.50</td><td class="down">-1.21%</td>
+      <td>41.3</td><td class="down">-0.195</td>
+      <td>-0.40</td><td class="down">-2.65%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">64.93-66.25</td><td class="mono">62.94-64.27</td><td class="mono">63.93</td><td class="mono">68.37</td><td class="mono">72.24</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">688981</td><td>中芯国际</td><td class="mono">SSE:688981</td>
+      <td>115.82</td><td class="down">-0.95%</td>
+      <td>43.6</td><td class="down">-0.305</td>
+      <td>-0.53</td><td class="down">-3.04%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">117.06-119.45</td><td class="mono">113.47-115.86</td><td class="mono">115.27</td><td class="mono">122.77</td><td class="mono">129.72</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">300308</td><td>中际旭创</td><td class="mono">SZSE:300308</td>
+      <td>554.00</td><td class="up">+4.33%</td>
+      <td>45.7</td><td class="down">-6.162</td>
+      <td>-0.13</td><td class="down">-4.30%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">567.32-578.90</td><td class="mono">549.95-561.53</td><td class="mono">558.63</td><td class="mono">587.24</td><td class="mono">620.48</td>
+      <td class="reason">均线修复中，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600030</td><td>中信证券</td><td class="mono">SSE:600030</td>
+      <td>27.63</td><td class="up">+0.04%</td>
+      <td>40.2</td><td class="down">-0.032</td>
+      <td>-0.93</td><td class="down">-1.35%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">27.45-28.01</td><td class="mono">26.61-27.17</td><td class="mono">27.03</td><td class="mono">29.29</td><td class="mono">30.95</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">002475</td><td>立讯精密</td><td class="mono">SZSE:002475</td>
+      <td>50.63</td><td class="down">-0.33%</td>
+      <td>33.6</td><td class="down">-0.064</td>
+      <td>-0.53</td><td class="down">-4.20%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">51.79-52.85</td><td class="mono">50.21-51.26</td><td class="mono">51.00</td><td class="mono">53.67</td><td class="mono">56.71</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">002714</td><td>牧原股份</td><td class="mono">SZSE:002714</td>
+      <td>44.56</td><td class="down">-1.74%</td>
+      <td>36.1</td><td class="down">-0.022</td>
+      <td>-0.93</td><td class="down">-2.95%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">45.00-45.91</td><td class="mono">43.62-44.54</td><td class="mono">44.31</td><td class="mono">47.23</td><td class="mono">49.91</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">300760</td><td>迈瑞医疗</td><td class="mono">SZSE:300760</td>
+      <td>186.20</td><td class="up">+0.23%</td>
+      <td>37.9</td><td class="down">-0.241</td>
+      <td>-0.80</td><td class="down">-2.45%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">187.06-190.87</td><td class="mono">181.33-185.15</td><td class="mono">184.19</td><td class="mono">197.37</td><td class="mono">208.54</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">300124</td><td>汇川技术</td><td class="mono">SZSE:300124</td>
+      <td>74.35</td><td class="down">-1.03%</td>
+      <td>43.3</td><td class="down">-0.265</td>
+      <td>-0.67</td><td class="down">-2.92%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">75.05-76.58</td><td class="mono">72.75-74.29</td><td class="mono">73.90</td><td class="mono">78.81</td><td class="mono">83.27</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">000725</td><td>京东方A</td><td class="mono">SZSE:000725</td>
+      <td>4.28</td><td class="up">+2.39%</td>
+      <td>46.5</td><td class="down">-0.029</td>
+      <td>-0.27</td><td class="down">-2.18%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">4.29-4.38</td><td class="mono">4.16-4.24</td><td class="mono">4.22</td><td class="mono">4.54</td><td class="mono">4.79</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600019</td><td>宝钢股份</td><td class="mono">SSE:600019</td>
+      <td>7.01</td><td class="up">+1.30%</td>
+      <td>44.4</td><td class="down">-0.016</td>
+      <td>-0.93</td><td class="down">-2.12%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">7.02-7.16</td><td class="mono">6.80-6.95</td><td class="mono">6.91</td><td class="mono">7.43</td><td class="mono">7.85</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601012</td><td>隆基绿能</td><td class="mono">SSE:601012</td>
+      <td>18.28</td><td class="up">+0.83%</td>
+      <td>48.0</td><td class="down">-0.029</td>
+      <td>-0.53</td><td class="down">-0.89%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">18.08-18.44</td><td class="mono">17.52-17.89</td><td class="mono">17.80</td><td class="mono">19.38</td><td class="mono">20.47</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">000617</td><td>中油资本</td><td class="mono">SZSE:000617</td>
+      <td>8.93</td><td class="up">+2.17%</td>
+      <td>44.6</td><td class="down">-0.005</td>
+      <td>-0.53</td><td class="down">-0.84%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">8.83-9.01</td><td class="mono">8.56-8.74</td><td class="mono">8.69</td><td class="mono">9.47</td><td class="mono">10.00</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">002027</td><td>分众传媒</td><td class="mono">SZSE:002027</td>
+      <td>7.28</td><td class="up">+0.00%</td>
+      <td>45.7</td><td class="down">-0.005</td>
+      <td>-0.93</td><td class="down">-0.93%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">7.20-7.35</td><td class="mono">6.98-7.13</td><td class="mono">7.09</td><td class="mono">7.72</td><td class="mono">8.15</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">300015</td><td>爱尔眼科</td><td class="mono">SZSE:300015</td>
+      <td>10.64</td><td class="up">+3.00%</td>
+      <td>41.6</td><td class="down">-0.064</td>
+      <td>-0.80</td><td class="down">-3.46%</td>
+      <td><span class="score">10</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">10.80-11.02</td><td class="mono">10.47-10.69</td><td class="mono">10.64</td><td class="mono">11.28</td><td class="mono">11.92</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">600415</td><td>小商品城</td><td class="mono">SSE:600415</td>
+      <td>15.02</td><td class="down">-0.46%</td>
+      <td>33.0</td><td class="down">-0.102</td>
+      <td>-0.80</td><td class="down">-5.85%</td>
+      <td><span class="score">5</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">15.63-15.95</td><td class="mono">15.16-15.47</td><td class="mono">15.40</td><td class="mono">15.92</td><td class="mono">16.82</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    
+    <tr data-rec="watch"> 
+      <td class="mono">601888</td><td>中国中免</td><td class="mono">SSE:601888</td>
+      <td>85.18</td><td class="down">-10.00%</td>
+      <td>39.4</td><td class="down">-0.532</td>
+      <td>-0.40</td><td class="down">-8.07%</td>
+      <td><span class="score">0</span></td><td><span class="badge badge-watch">观察</span></td>
+      <td class="mono">90.80-92.66</td><td class="mono">88.02-89.88</td><td class="mono">89.41</td><td class="mono">90.29</td><td class="mono">95.40</td>
+      <td class="reason">均线偏弱，动量偏弱，胜率不足；先观察，等待趋势确认再考虑</td>
+    </tr>
+    </tbody></table></div>
+<div class='foot'>仅技术面参考，不构成投资建议。建议单票仓位≤20%，严格执行止损。</div></div></div>
+<script>const btns=[...document.querySelectorAll('.btn')],rows=[...document.querySelectorAll('tbody tr')];btns.forEach(b=>b.onclick=()=>{btns.forEach(x=>x.classList.remove('active'));b.classList.add('active');const f=b.dataset.filter;rows.forEach(r=>r.style.display=(f==='all'||r.dataset.rec===f)?'':'none');})</script></body></html>
